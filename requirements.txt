@@ -1,0 +1,12 @@
+fastapi
+Faker
+pika
+psycopg2-binary
+pydantic
+python-crontab
+python-decouple
+schedule
+SQLAlchemy==1.4.0
+typing-extensions
+union
+uvicorn[standard]
