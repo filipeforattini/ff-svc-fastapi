@@ -1,15 +1,16 @@
-# libs
+from time import sleep
 from fastapi import FastAPI
 from fastapi.openapi.utils import get_openapi
 from src.routers import leads, pageviews
 import threading
 
-# app
 from src.services import database, consumer, producer
 
+
 def start():
-    print('app :: starting ')
-    print('database :: sync', database.sync())
+    print('app      :: starting ')
+    print('database :: sync postgres', database.syncPostgres())
+    print('database :: sync mysql', database.syncMysql())
 
     app = FastAPI()
     app.include_router(leads.router)
@@ -32,11 +33,13 @@ def start():
 
     app.openapi = custom_openapi
 
-    # t1 = threading.Thread(target=producer.loop)
-    # t1.start()
+    t1 = threading.Thread(target=producer.loop)
+    t1.start()
 
-    # t2 = threading.Thread(target=consumer.loop)
-    # t2.start()
+    sleep(5)
 
-    print('app :: start finished! ')
+    t2 = threading.Thread(target=consumer.loop)
+    t2.start()
+
+    print('app      :: start finished! ')
     return app

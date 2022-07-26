@@ -3,14 +3,14 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from src.models.pageview import Pageview
-from src.services.database import Engine
+from src.services.database import EnginePostgres
 
 router = APIRouter()
 
 
 @router.get("/pageviews")
 async def read_users():
-    with Session(Engine) as session:
+    with Session(EnginePostgres) as session:
         stmt = select(Pageview)\
             .limit(25)\
             .offset(1)

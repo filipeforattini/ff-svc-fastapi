@@ -1,12 +1,15 @@
 fastapi
 Faker
+mysqlclient
 pika
 psycopg2-binary
 pydantic
 python-crontab
 python-decouple
 schedule
+setuptools
 SQLAlchemy==1.4.0
+testresources
 typing-extensions
 union
 uvicorn[standard]
