@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/cyber/Work/FF/pipelines/ff-svc-fastapi'
+pip install \
+	--upgrade \
+	-r requirements.txt
+make: Leaving directory '/home/cyber/Work/FF/pipelines/ff-svc-fastapi'
+ 

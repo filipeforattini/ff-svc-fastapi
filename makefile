@@ -1,21 +1,50 @@
+make: up
+
 install:
-	pip install \
+	pip3 install \
 		--upgrade \
 		-r requirements.txt
 
 rebuild:
-	docker-compose build \
-		--force-rm \
-		--no-cache
-
-restart:
-	docker-compose restart app && make logs
+	docker-compose \
+		--project-name ff-cluster \
+		--file ./shared.docker-compose.yml \
+		build \
+			--force-rm \
+			--no-cache
 
 up:
-	docker-compose up -d
+	docker-compose \
+		--project-name ff-cluster \
+		--file ./shared.docker-compose.yml \
+		--log-level ERROR \
+		up -d \
+		&& make logs
 
 down:
-	docker-compose down
+	docker-compose \
+		--project-name ff-cluster \
+		--file ./shared.docker-compose.yml \
+		--log-level ERROR \
+		down
 
 logs:
-	docker-compose logs --tail 100 -f app
+	docker-compose \
+		--project-name ff-cluster \
+		--file ./shared.docker-compose.yml \
+		--log-level ERROR \
+		logs --tail 100 -f app-fastapi
+
+restart:
+	docker-compose \
+		--project-name ff-cluster \
+		--file ./shared.docker-compose.yml \
+		--log-level ERROR \
+		restart app-fastapi \
+	&& make logs
+
+ps:
+	docker-compose \
+		--project-name ff-cluster \
+		--file ./shared.docker-compose.yml \
+		ps
