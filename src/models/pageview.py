@@ -11,7 +11,7 @@ class Pageview(Base):
     id = Column(Integer, primary_key=True)
     ip = Column(String(32))
     page = Column(String(64))
-    query = Column(String(32))
+    query = Column(String(256))
     createdAt = Column(DateTime(timezone=True), default=datetime.now, server_default=func.now())
     updatedAt = Column(DateTime(timezone=True), default=datetime.now, server_default=func.now(), onupdate=func.now())
     deletedAt = Column(DateTime(timezone=True))
