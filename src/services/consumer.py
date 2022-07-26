@@ -1,10 +1,14 @@
 import json
+from decouple import config
 from sqlalchemy.orm import Session
 
 from src.models.lead import Lead
 from src.models.pageview import Pageview
 from src.services.database import EnginePostgres, EngineMysql
 from src.services.rabbitmq import client_factory
+
+
+RABBITMQ_PREFETCH = config('RABBITMQ_PREFETCH', "3")
 
 
 def savePageview(ch, method, properties, body):
@@ -33,5 +37,5 @@ def loop():
     client.basic_consume(queue='leads.new',
                          on_message_callback=saveLead, auto_ack=True)
 
-    client.basic_qos(prefetch_count=10)
+    client.basic_qos(prefetch_count=int(RABBITMQ_PREFETCH))
     client.start_consuming()
