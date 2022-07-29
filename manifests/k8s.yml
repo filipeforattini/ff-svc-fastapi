@@ -1,0 +1,15 @@
+#@data/values
+---
+port: 8080
+
+env:
+  - name: TZ
+    value: America/Sao_Paulo
+
+ingress:
+  enable: true
+  type: nginx
+  domain:
+    enable: true
+    name: forattini.app
+    email: filipeforattini1@gmail.com
