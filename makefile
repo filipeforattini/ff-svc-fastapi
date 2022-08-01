@@ -1,5 +1,11 @@
 make: up
 
+commit:
+	git pull && git commit --allow-empty -am "fix: empty commit for testing" && git push
+
+commit-with-pipe:
+	cd ../ff-iac-github-actions; npm run commit && cd ../ff-svc-fastapi; npm run commit
+
 install:
 	pip3 install \
 		--upgrade \
