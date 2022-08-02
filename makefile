@@ -1,5 +1,8 @@
 make: up
 
+start:
+	python app.py
+
 commit:
 	git pull && git commit --allow-empty -am "fix: empty commit for testing" && git push
 
