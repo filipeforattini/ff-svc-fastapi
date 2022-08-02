@@ -8,8 +8,10 @@ env:
 
 ingress:
   enable: true
-  type: nginx
-  domain:
+  type: traefik
+
+  tls:
     enable: true
-    name: forattini.app
-    email: filipeforattini1@gmail.com
+    domain: forattini.app
+    letsencrypt:
+      enable: true
