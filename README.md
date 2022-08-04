@@ -3,18 +3,16 @@
 
 This repository is an example of a `svc` to be built with [filipeforattini/ff-iac-github-actions](https://github.com/filipeforattini/ff-iac-github-actions) pipeline and deployed on Kubernetes.
 
-
-| Language | Framework | Docker |
-|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" title="React" width="40" height="40"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original-wordmark.svg" title="React" width="40" height="40"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" title="React" width="40" height="40"/> |
-| 3.10 | 0.79 | 3/10-alpine |
-
+| Language | Interpreter | Application | Docker |
+|:---:|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg" height="38"> | <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg" height="38"> | <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" height="38"> | <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg" height="38"> |
+| 3.10	| 3.10 | 0.79 | 3.10-alpine |
 
 ## Environments
 
 | name | deploy | link |
 |:---:|:---:|:---:|
-| dev | ![](https://img.shields.io/github/deployments/filipeforattini/ff-svc-fastapi/dev?label=deploy) | [live](https://ff-svc-fastapi.dev.forattini.app/) |
-| stg | ![](https://img.shields.io/github/deployments/filipeforattini/ff-svc-fastapi/stg?label=deploy) | [live](https://ff-svc-fastapi.stg.forattini.app/) |
-| prd | ![](https://img.shields.io/github/deployments/filipeforattini/ff-svc-fastapi/prd?label=deploy) | [live](https://ff-svc-fastapi.prd.forattini.app/) |
+| dev | ![](https://img.shields.io/github/deployments/filipeforattini/ff-svc-express/dev?label=deploy) | [live](https://ff-app-fastapi.dev.forattini.app/) |
+| stg | ![](https://img.shields.io/github/deployments/filipeforattini/ff-svc-express/stg?label=deploy) | [live](https://ff-app-fastapi.stg.forattini.app/) |
+| prd | ![](https://img.shields.io/github/deployments/filipeforattini/ff-svc-express/prd?label=deploy) | [live](https://ff-app-fastapi.prd.forattini.app/) |
 
