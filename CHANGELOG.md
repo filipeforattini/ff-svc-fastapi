@@ -1,3 +1,10 @@
+## [1.0.41](https://github.com/filipeforattini/ff-svc-fastapi/compare/v1.0.40...v1.0.41) (2022-08-09)
+
+
+### Bug Fixes
+
+* empty commit for testing ([872000c](https://github.com/filipeforattini/ff-svc-fastapi/commit/872000c490ae6975bdc8d7d39be50162d7b65f11))
+
 ## [1.0.40](https://github.com/filipeforattini/ff-svc-fastapi/compare/v1.0.39...v1.0.40) (2022-08-09)
 
 
