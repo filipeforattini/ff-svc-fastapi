@@ -1,3 +1,24 @@
+## [1.0.75](https://github.com/filipeforattini/ff-svc-fastapi/compare/v1.0.74...v1.0.75) (2022-08-24)
+
+
+### Bug Fixes
+
+* empty commit for testing ([c0ee009](https://github.com/filipeforattini/ff-svc-fastapi/commit/c0ee0091459456d35c5eb4777f42b1cd38fe5e34))
+* empty commit for testing ([8ed7bfa](https://github.com/filipeforattini/ff-svc-fastapi/commit/8ed7bfa4270ca1f54f0e5b698a44b0a04a805c40))
+* empty commit for testing ([40812c1](https://github.com/filipeforattini/ff-svc-fastapi/commit/40812c1dd6ec098d169bfe5f74f8fa8b441e498f))
+* empty commit for testing ([a9e6f29](https://github.com/filipeforattini/ff-svc-fastapi/commit/a9e6f290a9893dabbb637d39ccb6eddb0c6f136f))
+* empty commit for testing ([ff3aabd](https://github.com/filipeforattini/ff-svc-fastapi/commit/ff3aabd45c664c6bf7a50d0dac9ade221a43e2e6))
+* empty commit for testing ([c332f53](https://github.com/filipeforattini/ff-svc-fastapi/commit/c332f538c788841e926356a534c0f7f865781843))
+* empty commit for testing ([e080f33](https://github.com/filipeforattini/ff-svc-fastapi/commit/e080f33ca11e379901efb8159e1cfd519f2c8174))
+* empty commit for testing ([4ab9d7e](https://github.com/filipeforattini/ff-svc-fastapi/commit/4ab9d7e21a692ef218bbd687380c2b3825e78c93))
+* empty commit for testing ([fbde56f](https://github.com/filipeforattini/ff-svc-fastapi/commit/fbde56feb0c58beb561353ab51fcd9828678acd3))
+* empty commit for testing ([4b2570a](https://github.com/filipeforattini/ff-svc-fastapi/commit/4b2570a916bfc9dc97de886ae532c2eb55453e9f))
+* empty commit for testing ([be7e236](https://github.com/filipeforattini/ff-svc-fastapi/commit/be7e236546439a1415c723e4432c58ea5648925a))
+* empty commit for testing ([a00f2a7](https://github.com/filipeforattini/ff-svc-fastapi/commit/a00f2a77737ee6e8448dffe3367e804484a2cde0))
+* empty commit for testing ([e4e352e](https://github.com/filipeforattini/ff-svc-fastapi/commit/e4e352efa10e4769a4074b1405d979dbf533c975))
+* empty commit for testing ([0c144c5](https://github.com/filipeforattini/ff-svc-fastapi/commit/0c144c54af24030288668099f7660f9196a7aa63))
+* empty commit for testing ([2469539](https://github.com/filipeforattini/ff-svc-fastapi/commit/24695391881795c7a594dc4f523b2c951b2201f8))
+
 ## [1.0.74](https://github.com/filipeforattini/ff-svc-fastapi/compare/v1.0.73...v1.0.74) (2022-08-17)
 
 
