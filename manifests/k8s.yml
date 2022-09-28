@@ -9,9 +9,8 @@ env:
 ingress:
   enable: true
   type: traefik
+  domain: forattini.app
 
-  tls:
+  letsencrypt:
     enable: true
-    domain: forattini.app
-    letsencrypt:
-      enable: true
+    email: filipeforattini1@gmail.com
