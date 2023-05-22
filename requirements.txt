@@ -8,7 +8,7 @@ python-crontab
 python-decouple
 schedule
 setuptools
-SQLAlchemy==1.4.0
+SQLAlchemy==2.0.15
 testresources
 typing-extensions
 union
