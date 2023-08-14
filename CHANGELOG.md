@@ -1,3 +1,10 @@
+## [1.0.95](https://github.com/filipeforattini/ff-svc-fastapi/compare/v1.0.94...v1.0.95) (2023-08-14)
+
+
+### Bug Fixes
+
+* forcing new build with poetry enabled ([19a5fec](https://github.com/filipeforattini/ff-svc-fastapi/commit/19a5fec532d7fdf4a35434ba71128954a9efea42))
+
 ## [1.0.94](https://github.com/filipeforattini/ff-svc-fastapi/compare/v1.0.93...v1.0.94) (2022-10-03)
 
 
